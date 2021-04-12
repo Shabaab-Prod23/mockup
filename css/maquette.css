@@ -1,0 +1,432 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:   Arial sans-serif;
+}
+*img{
+    max-width: 100%;
+    height: auto;
+}
+*h1{
+    font-weight: bold;
+}
+*h2{
+    font-weight: bold;   
+}
+* h3{
+    font-weight: bold;    
+}
+*h4{
+    font-weight: bold; 
+}
+*h5{
+    font-weight: bold;  
+}
+body{
+	flex-direction: column;
+	display: flex;
+	height: 100vh;
+    background: #f1f1f1;
+    background-size: cover;
+    background-position: center;
+
+}
+.verticaleB{
+  margin-left: 680px;
+  margin-top: -50px;
+}
+.verticaleD{
+    margin-left: 680px;
+    margin-top: -50px;
+  }
+  .verticaleA{
+      margin-left: 680px;
+      margin-top: -18px;
+  }
+  .verticaleC{
+    margin-left: 680px;
+    margin-top: -18px;
+}
+
+ 
+  
+
+nav{
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;      	
+}
+.premier a{
+    text-decoration: none;
+    color: rgb(248, 250, 252);
+}
+nav ul{
+	display: flex;
+	text-decoration: none;
+	flex:  1 1 40rem;
+	justify-content: space-around;
+	list-style: none;
+    
+
+}
+#logo{
+    font-size: 2rem;
+    color: rgba(238, 197, 15, 0.856);
+    font-family: meitha;
+	flex: 2 1 40rem;
+    padding-left: 150px;
+ 
+}
+.premier h2{
+    font-size: 3rem;
+    padding-top: 200px;
+    padding-left: 440px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+.premier h4{
+    font-size: 4rem;
+    padding-top: 20px;
+    padding-left: 350px;
+    color: aliceblue;
+}
+.premier{
+   
+    background-image: url(https://sims-technologie.com/img/website-design-background-1.jpg);
+	background-size: cover;
+	background-position: center;
+    padding-bottom: 100px; 
+}
+input[type = submit] {
+    background-color: rgb(252, 198, 21);
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	padding: 20px 40px;
+	margin-left: 600px;
+    margin-top: 30px; 
+color: white;
+border-radius: 5px;
+border: medium;
+}
+p{
+    color: grey;
+}
+.deuxieme{
+   
+    display: block;
+    justify-content: center;
+    width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+    
+.deuxieme h3{
+    font-size: 3rem;
+    padding-top: 80px;
+}
+.deuxieme .icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.deuxieme h1{
+    font-size: 1.4rem;
+}
+.icons .icon1{
+    margin-right: 80px;
+}
+.ic{
+   margin-top: -60px;
+   
+}
+.txt{
+    padding-top: 30px;
+}
+.icons .icon3{
+    margin-left: 80px;
+}
+i[aria-hidden= true] {
+   color: rgba(250, 207, 14, 0.952);
+   font-size: 50px;
+   padding: 10px;
+  
+}
+.troisieme{
+    display: block;
+    justify-content: center;   
+	text-align: center;
+    background: #f1f1f1;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.card-title{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.troisieme .container{
+   
+    padding: 15px; 
+}
+.card-text{
+    color: grey;
+}
+.card{
+    margin: 15px;
+}
+.container .row{
+    display: flex;
+    justify-content: center;
+}
+.cinquieme{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+	text-align: center;	
+    background: #f1f1f1;
+    padding: 100px;
+}
+.cinquieme .cercle2{
+    padding-top: -20px;
+}
+.cinquieme .cercle1{
+  margin-right: 40px;
+  padding-top: -20px;
+}
+.cinquieme .cercle3{
+    margin-left: 40px;
+    padding-top: -20px;
+  }
+.cercle1 img{
+    border-radius: 100px;
+    background-color: white;
+    padding: 10px;
+}
+.cercle2 img{
+    border-radius: 100px;
+    background-color: white;
+    padding: 10px;
+}
+.cercle3 img{
+    border-radius: 100px;
+    background-color: white;
+    padding: 10px;
+}
+.l{
+    font-size: 1.6rem;
+}
+
+.social1 img{
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    margin-left: -15px;
+  
+    
+}
+.dow1{
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+.dow3{
+    margin-bottom: 10px;
+}
+.dow4{
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+.dow6{
+    margin-bottom: 10px;
+   
+}
+.dow8{
+    margin-bottom: 10px;
+}
+.social2 img{
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    margin-left: -15px;
+ 
+}
+.social3 img{
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    margin-left: -15px;   
+}
+.container .sponsors{
+    display: flex;
+    background: #fff;
+    justify-content: space-around; 
+	text-align: center;
+	padding-top: 20px;   
+    padding: 100px;   
+}
+#exampleInputEmail1{
+    width: 500px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+#exampleInputPassword1{
+    width: 500px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+#floatingTextarea2{
+  margin-right: 100px;
+  margin-top: 20px;
+  
+  width: 440px;
+  
+ 
+}
+.container form{
+    display: flex;
+}
+.sixieme .container{
+    background: url(https://static.vecteezy.com/ti/vecteur-libre/p3/107293-carte-du-monde-vector-grayscale-gratuit-vectoriel.jpg);
+    padding: 40px;
+}
+.sixieme h1{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 580px;
+    padding-top: 60px;
+  
+}
+.sixieme p{
+    color: grey;
+    font-size: 1.2rem;
+    margin-left: 560px;
+    margin-top: 0;
+}
+footer{
+    background: #fff;
+    display: flex;
+}
+footer p{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+footer div{
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.quatrieme{
+    background: #fff;
+    justify-content: center;
+
+    padding-top: 100px;
+}
+.quatrieme .q1{
+    display: flex;
+    justify-content: center;
+    margin-right: 400px;
+    margin-top: 50px;
+    
+ 
+}
+.quatrieme .q2{
+    display: flex;
+    justify-content: center;
+    margin-right: 270px;
+  margin-top: -30px;
+}
+.quatrieme .q3{
+    display: flex;
+    justify-content: center;
+    margin-right: 380px;
+    margin-top: -6px;
+}
+.quatrieme .q4{
+    display: flex;
+    justify-content: center;
+    margin-right: 280px;
+    margin-top: -30px;
+}
+.quatrieme .q5{
+    display: flex;
+    justify-content: center;  
+    margin-top: -10px;
+    margin-left: 52px;
+   
+}
+.vertical-line{
+   margin-top: -100px;
+   padding-top: -100px;
+}
+.quatrieme .q1 .text{
+   margin-right: 70px;
+   line-height: 25px;
+  
+}
+.quatrieme .q2 .text{
+   margin-right: -1000px;
+   line-height: 25px;
+}
+.quatrieme .q3 .text{
+   
+    margin-right: 160px;
+    line-height: 25px;  
+}
+.quatrieme .q4 .text{
+    margin-right: -1000px;
+    line-height: 25px;
+}
+
+.quatrieme .q5 .text{
+
+}
+.quatrieme .q1 .img{
+    
+}
+.verticale{
+    margin-top: 165px;
+}
+.quatrieme .q2 .img{
+  position: absolute;
+  padding-left: 320px;
+}
+.quatrieme .q3 .img{
+   margin-left: -120px;    
+}
+.quatrieme .q4 .img{
+    position: absolute;
+    padding-left: 320px;
+}
+.quatrieme .q5 .img{
+    background-color: rgb(253, 227, 28);
+    border-radius: 200px;
+    padding: 20px;
+    margin-bottom: 100px;
+    }
+#df{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 68px;
+}
+#ah{
+    text-align: center;
+    margin-left: 68px;
+}
+.text p{
+    color: grey;
+}
+#mo{
+font-size: 1.4rem;
+font-family: sans-serif;
+}
+
+
+
+
+
+
